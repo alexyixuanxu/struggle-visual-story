@@ -1,0 +1,182 @@
+@
+_start
+_ringSound _black 
+_ _phone *Rings Rings Rings
+_ _phone It's 2:30 am, and the phone is ringing.
+_ _phone Who would call to my room this late at night?
+_mute _phone Should I pick up?   A. No   B. Yes
+@
+_no_pickup
+_ _phone No.
+_ _room I feel unsettled and ignored the phone.
+_ringSound _room Huddled in bed, I can no longer go back to sleep.
+_ _room The phone keeps ringing, again and again.
+_mute _room At one point, it stops.
+_poundingSound _room Just when I feel relieved,
+_ _door *Impetuouse pounding on the door
+_ _door "Miss, why don't you answer the phone?"
+_mute _door "There is something wrong with your information in our system."
+_ _door "You need to come down to the lobby now."
+_ _door I panicked, but try to maintain my calm, "Why? Why Now?"
+_ _door "Just come downstairs, Miss."
+_ _door No more sounds.
+_ _black Suspicious.
+_ _black It is undoubtedly late, but would I cause trouble for the staff if I don't go?
+_ _black Should I go to the lobby?   A. No   B. Yes
+@
+_no_go
+_ _room No, I can't go.
+_ _room It just doesn't feel right.
+_ _room I make sure the door is chained
+_ _room I pull a chair against the door.
+_ _room I lock the windows.
+_ _black At least I feel secured...?
+_ _black ...
+_ _black I fall asleep in blur.
+_ _black ...
+_ _light morning Lights pierce through the windows in the morning.
+_ _lobbyMorning The lobby is strangely crowded.
+_ _lobbyMorning Somehow there are police inquiring.
+_ _lobbyMorning Disturbance among people.
+_ _black They say that last night a girl dissapeared from the hotel.
+_ _black Giving me a shudder.
+_ _black Ending: Substitute
+@
+_yes_go
+_ _room Yes.
+_ _room I am in this renowned five-star hotel.
+_ _room They should be trustworthy enough to keep me safe.
+_ _room And I might just get into trouble for not complying.
+_ _room The least thing I want is to get into trouble in a foreign country.
+_ _room I'll be cautious.
+_ _hallway
+_elevatorSound _elevator
+_ _lobbyNight Elevator door opens.
+_mute _lobbyNight I glance: the lobby is empty, reception is empty.
+_ _lobbyNight A man is next to a car outside.
+_ _lobbyNight This doesn't feel right...
+_ _lobbyNight Just when I am going to step out,
+_ _lobbyNightMan a muscular man suddenly appear from behind the pillar and starts to stride towards me.
+_ _lobbyNightMan He doesn't look friendly.
+_ _lobbyNightMan What do I do?   A. Stay and see what he's going to do.   B. Run!
+@
+_go_freeze
+_ _lobbyNightMan I freeze and wonder what he's going to do.
+_ _lobbyNightManApp The man approaches me with a smirk.
+_ _black Handkerchief...
+_ _black The smell...
+_ _black ...
+_ _black Darkness.
+_ _black Ending: Slave
+@
+_go_run
+_ _lobbyNightMan Where do I go?   A. Get back into the elevator.   B. Run towards the stairs.   C. Run towards the door.
+@
+_go_run_elevator
+_ _lobbyNightMan "YOU STOP!" I scream and rush back into the elevator.
+_ _elevatorButtoms I press "close" ceaselessly.
+_ _elevatorButtoms Which floor should I go to? Should I get back to the 5th floor?   A. Yes   B. No
+@
+_elevator_back
+_ _elevatorButtoms Yes, I should get back to my room.
+_elevatorSound _elevatorButtoms I press 5.
+_ _hallwayMan Door opened.
+_ _hallwayMan A man stands in front of me.
+_ _black Well, they expected that.
+_ _black Ending: In The Box
+@
+_elevator_hide
+_ _elevatorButtoms No.
+_ _elevatorButtoms I cannot get back.
+_ _elevatorButtoms There could be his complices waiting for me.
+_ _elevatorButtoms They expect me to get back to my room.
+_ _elevatorButtoms 2nd or 3rd floor could be reached through the stairs.
+_ _elevatorButtoms So 4th floor.
+_elevatorSound _elevatorButtoms I press 4 through 8 hopefully to puzzle them. 
+_ _hallway I get off on the 4th floor.
+_mute _hallway Now where do I hide?   A. Someone's room   B. Bathroom   C. Janitor's closet
+@
+_hide_room
+_poundingSound _hallway Maybe I'll get someone to help me.
+_ _hallway * knocking
+_ _hallway "Help! Someone's chasing me! Help!"
+_mute _hallway I must be treated as a lunatic.
+_ _hallway No one opens the door.
+_ _hallway Sounds notify the man my location.
+_ _hallwayManSee He sees me.
+_ _black ...
+_ _black Ending: Dependency
+@
+_hide_bath
+_ _black I nervously stay in one of the stalls.
+_heavyStepSound _black I want to dial to the police.
+_ _black *Heavy footsteps
+_mute _black He is here.
+_ _black ...
+_ _black Of course, the obvious bathroom.
+_ _black Ending: In Cage
+@
+_hide_janitor
+_ _black I lock the door.
+_ _black The room is tiny and dark.
+_ _black I could hear my heartbeat.
+_ _black I slience my phone.
+_ _black I text John: I'm at Hotel X 4th fl janitor's closet, kidnap, come, do not call, call the police.
+_callSound _black I dial his number.
+_ _black And then hang up before he answers.
+_mute _black Wake up, John.
+_ _black ...
+_ _black I seem to have stayed in the darkness forever,
+_ _black before I hear sirens and steps and John's shouting.
+_ _hallwayJohn I step out and see John.
+_ _hallwayJohn I could barely stand straight.
+_ _hallwayJohn I could no longer sustain and tears flow involuntarily.
+_ _hallwayJohn "How could you just trust people like that? Do you know how dangerous it is at midnight in Paris? You could get killed!"
+_ _black ...
+_ _black Later I learn from the Police that the hotel's reception was conspiring with French mafia.	
+_ _black They were involved with human trafficking and target at lone female guests.
+_ _black I do not know how to feel about that.
+_ _black Ending: Truly A Lesson Learned
+@
+_go_run_stairs
+_ _stairs I rush towards the stairs, hoping I would get back into the room.
+_ _stairs But soon my stamina beats me.
+_ _black The man catches up.
+_ _black I am helpless. 
+_ _black Ending: Overrated Self
+@
+_go_run_door
+_ _lobbyNightManApp I need to get out of here!
+_ _lobbyNight I rush towards the door...
+_ _black before two men surround me.
+_ _black No way to go.
+_ _black ...
+_ _black Ending: Impulse Has A Cost
+@
+_yes_pickup
+_ _phone Yes.
+_ _phone I cannot ignore the shrilling sounds of the phone.
+_ _phone "Miss, there is something wrong with your information in our system."
+_ _phone "You need to come down to the lobby now!" 
+_ _phone The man's voice over the phone is impatient and compulsive.
+_ _phone Is there a problem?
+_ _phone I feel uncertained, "...Why? Why now?"
+_ _phone "You need to come to the reception immediately!"
+_ _phone "...Why? What is the problem?"
+_ _room No more answers.
+_ _room He hung up.
+_ _black Suspicious?
+_ _black It is undoubtedly late, but would I cause trouble for the staff if I don't go?
+_ _black Should I go to the lobby?   A. No   B. Yes
+@
+_yes_pickup_no_go
+_ _room No.
+_poundingSound _room Tranquility lasts for few minutes only.
+_ _door *Impetuouse pounding on the door
+_ _door "MISS, OPEN THE DOOR! YOU CANNOT STAY IN THE ROOM!"
+_mute _door "Come downstairs IMMEDIATELY!"
+_ _black ...
+_ _black I am aghast.
+_ _black His words seem to be undisputable.
+_ _black Should I go after all?   A. No   B. Yes
+@
