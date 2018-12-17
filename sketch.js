@@ -51,7 +51,7 @@ function preload(){
   
   
   // preload font
-  text_font = loadFont('fonts/TravelingTypewriter.otf')
+  text_font = loadFont('fonts/TravelingTypewriter.otf');
   
   // preload images
   img_door = loadImage('visual/_door.jpg')
@@ -76,7 +76,7 @@ function setup() {
   createCanvas(canvas_width, canvas_height);
   background(0);
   frameRate(10);
-  textFont(text_font)
+  textFont(text_font);
   
   // sound related
   music_intro.setVolume(0.09)
@@ -307,8 +307,6 @@ function _printPart(current_part){ // accepts an array of splited sentences
     }
   }
   
-  // text
-  console.log(current_part)
   /*
   if (current_line_index == current_part.length - 1){
     bg_need_refresh = false
@@ -316,8 +314,6 @@ function _printPart(current_part){ // accepts an array of splited sentences
   */
   if (current_line_index < current_part.length && current_word_index < current_part[current_line_index].length){
     var current_word = current_part[current_line_index][current_word_index];
-    console.log(current_word_index)
-    console.log(current_word)
     if (current_line_index == current_part.length-1 && current_part[current_line_index][2] == 'Ending:' && current_word_index == current_part[current_line_index].length-1){
       music_end.loop()
       music_end.play()
@@ -325,7 +321,6 @@ function _printPart(current_part){ // accepts an array of splited sentences
       game_ended = true
       game_started = false
     }
-    console.log(game_ended)
     
     img_needed = false
     text(current_word, word_width, word_height);
@@ -348,9 +343,6 @@ var end_timer = 0
 function draw() {
   stroke(0);
   strokeWeight(2);
-  //console.log(bg_need_refresh)
-  //console.log(choices)
-  console.log(game_ended)
   
   if (game_started == true && game_ended == false){//press enter to start the game
     fill(255)
@@ -362,9 +354,6 @@ function draw() {
     
     textAlign(LEFT)
     textSize(20)
-    
-    // the whole pathes and logic
-    console.log(choices)
 
     if (choices == 'S'){
       _printPart(storyline_ind._start)
